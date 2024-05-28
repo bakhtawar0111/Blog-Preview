@@ -80,7 +80,7 @@
   font-weight: 800;
   margin: 10px;
 }
-@media (max-width: 520px) {
+@media (max-width: 760px) {
   .card {
     left: 10vh;
     height: auto;
