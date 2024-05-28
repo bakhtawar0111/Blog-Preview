@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f4d04e;
+}
+.card {
+  position: relative;
+  top: 15vh;
+  left: 80vh;
+  width: 45vh;
+  height: auto;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px;
+  text-align: center;
+}
+.card > img {
+  width: 40vh;
+  height: 25vh;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.content {
+  background-color: transparent;
+  text-align: left;
+  font-family: Figtree;
+}
+.badge {
+  padding: 4px 12px;
+  width: 55px;
+  background-color: #f4d04e;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 800;
+  margin: 10px 0px 12px 15px;
+}
+.publish {
+  background-color: transparent;
+  font-size: 13px;
+  font-weight: 550;
+  margin-left: 16px;
+}
+.content > .heading {
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 800;
+  margin: 10px 0px 15px 16px;
+}
+.content > .heading:hover {
+  color: #f4d04e;
+  cursor: url(./assets/images/icons8-cursor-48.png), auto;
+}
+.content > .discription {
+  color: grey;
+  padding: 1px;
+  background-color: transparent;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 10px 0px 15px 12px;
+  font-style: normal;
+  line-height: 23px;
+  align-self: stretch;
+}
+.publisher {
+  display: flex;
+  background-color: transparent;
+  margin-left: 13px;
+  margin-bottom: 20px;
+}
+.publisher > img {
+  background-color: transparent;
+  width: 35px;
+}
+.publisher > p {
+  font-style: normal;
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: 800;
+  margin: 10px;
+}
+@media (max-width: 520px) {
+  .card {
+    left: 10vh;
+    height: auto;
+  }
+}
