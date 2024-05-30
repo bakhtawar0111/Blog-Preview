@@ -7,8 +7,8 @@
 .card {
   position: relative;
   top: 15vh;
-  left: 80vh;
-  width: 45vh;
+  left: 37vw;
+  width: 20vw;
   height: auto;
   background-color: white;
   border: 2px solid black;
@@ -80,9 +80,9 @@
   font-weight: 800;
   margin: 10px;
 }
-@media (max-width: 760px) {
+@media (max-width: 720px) {
   .card {
-    left: 10vh;
+    left: 30vh;
     height: auto;
   }
 }
